@@ -1,0 +1,131 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(../img/fondo.jpg);
+}
+
+#carrito {
+    margin-left: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100px;
+}
+
+#icono-carrito {
+    margin-top: 12px;
+}
+
+#cantidad-productos {
+    border-width: 0px;
+    color: aliceblue;
+}
+
+i {
+    color: aliceblue;
+
+}
+
+hr {
+    color: blueviolet;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #bedf62bb;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#caracteristicas {
+    color: #bedf62bb;
+}
+
+
+h3 {
+    color: #bedf62bb;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+article {
+    color: white;
+}
+
+article h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 10px;
+}
+
+#descripcion-producto {
+    height: 1;
+    background-image: url(../img/grunge-vintage-paper-background-with-stains.jpg)
+}
+
+article p {
+    padding: 30px 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 0px;
+
+
+}
+
+
+
+
+#plataformas {
+    margin-top: 50px;
+}
+
+
+
+footer {
+    color: whitesmoke;
+}
+
+a:link {text-decoration:none;}
+
+#p-footer {
+    margin-bottom: 0px;
+}
+
+@media (max-width: 991px) {
+    #carrito {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 800px) {
+    #imagen-elder {
+        width: 80vw;
+    }
+
+}
+
+@media (max-width: 800px) {
+    #plataformas i {
+        width: 80px;
+        font-size: xx-small;
+
+    }
+}
+
+@media (max-width: 800px) {
+    #plataformas button {
+        width: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 475px) {
+    ul li {
+        display: flex;
+    }
+}
