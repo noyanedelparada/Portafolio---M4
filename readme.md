@@ -1,4 +1,4 @@
-# Entrega de portafolio M3
+# Entrega de portafolio M4
 
 ## Requerimientos:
 
@@ -8,7 +8,7 @@
 
 ## Cuenta Github : https://github.com/noyanedelparada
 
-## link Github pages: [Deploy Github Pages](https://noyanedelparada.github.io/Portafolio-M-3/)
+## link Github pages: [Deploy Github Pages](https://noyanedelparada.github.io/Portafolio---M4/)
 
 
 ## Comandos utilizados en Github:
@@ -52,6 +52,8 @@
 ### Para la pagina del carrito: Agregar la funcionalidad de agregar y quitar un producto através de botones, generar la tabla de productos con sus precios, descuentos y precio total respecto a la cantidad de productos; generar la funcion para vaciar el carro y para aplicar descuentos, alarmas para confirmar la eliminación un producto, para validar un cupon o para invalidarlo; y finalmente calcular el precio de todos los productos juntos con los descuentos correspondientes. 
 ###
 ### Para la pagina de Login y registro: Se desarrollo la logica del ingreso de la pagina asignandole usuarios predeterminados en un "array", además de incorporar alarmas al momento de ingresar tanto los datos validos como invalidos, redirigiendo a la pagina principal al momento de ingresar datos validos; por ultimo, agregar un "registro de la pagina" añadiendo al "array" de los usuarios los nuevos datos registrados con un "push", para finalmente redirigir a la pagina de ingreso.
+###
+### Para la página de inventario: A través de botones se aplicaron funciones para: Agregar un producto al "localstorage", modificar un producto ya agregado y eliminar un producto. Para agregar un producto nuevo se requiere el sku del producto (el cual funciona como un identificador del mismo), el nombre, su descripcion, el precio y finalmente indicar el stock de este producto. La pagina de inventario se toma como una seccion aparte de la pagina, por lo que no se adhirió el carrito.
 
 
 ## Usuarios validos para ingresar
